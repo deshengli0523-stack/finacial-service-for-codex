@@ -1,0 +1,10 @@
+# Local conversion workspace
+__source_financial_services/
+
+# Python/cache output
+__pycache__/
+*.pyc
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

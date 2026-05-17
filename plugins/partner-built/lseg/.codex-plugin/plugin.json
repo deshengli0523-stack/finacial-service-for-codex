@@ -1,0 +1,41 @@
+{
+  "name": "lseg",
+  "version": "1.0.0",
+  "description": "Price bonds, analyze yield curves, evaluate FX carry trades, value options, and build macro dashboards using LSEG financial data and analytics.",
+  "author": {
+    "name": "LSEG",
+    "url": "https://github.com/anthropics/financial-services"
+  },
+  "homepage": "https://github.com/deshengli0523-stack/finacial-service-for-codex",
+  "repository": "https://github.com/deshengli0523-stack/finacial-service-for-codex",
+  "license": "Apache-2.0",
+  "keywords": [
+    "finance",
+    "financial-services",
+    "codex",
+    "skills",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "LSEG",
+    "shortDescription": "Price bonds, analyze yield curves, evaluate FX carry trades, value options, and build macro dashboards using LSEG financ",
+    "longDescription": "Price bonds, analyze yield curves, evaluate FX carry trades, value options, and build macro dashboards using LSEG financial data and analytics. Ported from Anthropic's financial-services Claude plugin format into Codex plugin and skill conventions.",
+    "developerName": "Anthropic FSI / Codex port",
+    "category": "Finance",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/financial-services",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "Use LSEG workflows for a finance task.",
+      "Run a LSEG analysis with citations."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  },
+  "mcpServers": "./.mcp.json"
+}

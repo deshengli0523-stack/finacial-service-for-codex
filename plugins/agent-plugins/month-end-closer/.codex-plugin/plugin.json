@@ -1,0 +1,40 @@
+{
+  "name": "month-end-closer",
+  "version": "0.1.0",
+  "description": "Accruals, roll-forwards, variance commentary",
+  "author": {
+    "name": "Anthropic FSI",
+    "url": "https://github.com/anthropics/financial-services"
+  },
+  "homepage": "https://github.com/deshengli0523-stack/finacial-service-for-codex",
+  "repository": "https://github.com/deshengli0523-stack/finacial-service-for-codex",
+  "license": "Apache-2.0",
+  "keywords": [
+    "finance",
+    "financial-services",
+    "codex",
+    "skills",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Month End Closer",
+    "shortDescription": "Accruals, roll-forwards, variance commentary",
+    "longDescription": "Accruals, roll-forwards, variance commentary Ported from Anthropic's financial-services Claude plugin format into Codex plugin and skill conventions.",
+    "developerName": "Anthropic FSI / Codex port",
+    "category": "Finance",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/financial-services",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "Use Month End Closer workflows for a finance task.",
+      "Run a Month End Closer analysis with citations."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}

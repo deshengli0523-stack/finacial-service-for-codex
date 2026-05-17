@@ -1,0 +1,42 @@
+{
+  "name": "investment-banking",
+  "version": "0.2.0",
+  "description": "Investment banking productivity tools: client and market insights, deck creation, financial analysis, and transaction management",
+  "author": {
+    "name": "Anthropic",
+    "url": "https://github.com/anthropics/financial-services"
+  },
+  "homepage": "https://github.com/deshengli0523-stack/finacial-service-for-codex",
+  "repository": "https://github.com/deshengli0523-stack/finacial-service-for-codex",
+  "license": "Apache-2.0",
+  "keywords": [
+    "finance",
+    "financial-services",
+    "codex",
+    "skills",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Investment Banking",
+    "shortDescription": "Investment banking productivity tools: client and market insights, deck creation, financial analysis, and transaction ma",
+    "longDescription": "Investment banking productivity tools: client and market insights, deck creation, financial analysis, and transaction management Ported from Anthropic's financial-services Claude plugin format into Codex plugin and skill conventions.",
+    "developerName": "Anthropic FSI / Codex port",
+    "category": "Finance",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/financial-services",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "Use Investment Banking workflows for a finance task.",
+      "Run a Investment Banking analysis with citations."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  },
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json"
+}

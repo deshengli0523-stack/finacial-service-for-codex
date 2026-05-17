@@ -1,0 +1,41 @@
+{
+  "name": "sp-global",
+  "version": "1.0.0",
+  "description": "S&P Global - Financial data and analytics skills including company tearsheets, earnings previews, and transaction summaries",
+  "author": {
+    "name": "Kensho Technologies",
+    "url": "https://github.com/anthropics/financial-services"
+  },
+  "homepage": "https://github.com/deshengli0523-stack/finacial-service-for-codex",
+  "repository": "https://github.com/deshengli0523-stack/finacial-service-for-codex",
+  "license": "Apache-2.0",
+  "keywords": [
+    "finance",
+    "financial-services",
+    "codex",
+    "skills",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "S&P Global",
+    "shortDescription": "S&P Global - Financial data and analytics skills including company tearsheets, earnings previews, and transaction summar",
+    "longDescription": "S&P Global - Financial data and analytics skills including company tearsheets, earnings previews, and transaction summaries Ported from Anthropic's financial-services Claude plugin format into Codex plugin and skill conventions.",
+    "developerName": "Anthropic FSI / Codex port",
+    "category": "Finance",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/financial-services",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "Use S&P Global workflows for a finance task.",
+      "Run a S&P Global analysis with citations."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  },
+  "mcpServers": "./.mcp.json"
+}

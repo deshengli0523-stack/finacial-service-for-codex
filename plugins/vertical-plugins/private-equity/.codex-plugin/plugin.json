@@ -1,0 +1,42 @@
+{
+  "name": "private-equity",
+  "version": "0.1.0",
+  "description": "Private equity deal sourcing and workflow tools: company discovery, CRM integration, and founder outreach",
+  "author": {
+    "name": "Anthropic FSI",
+    "url": "https://github.com/anthropics/financial-services"
+  },
+  "homepage": "https://github.com/deshengli0523-stack/finacial-service-for-codex",
+  "repository": "https://github.com/deshengli0523-stack/finacial-service-for-codex",
+  "license": "Apache-2.0",
+  "keywords": [
+    "finance",
+    "financial-services",
+    "codex",
+    "skills",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Private Equity",
+    "shortDescription": "Private equity deal sourcing and workflow tools: company discovery, CRM integration, and founder outreach",
+    "longDescription": "Private equity deal sourcing and workflow tools: company discovery, CRM integration, and founder outreach Ported from Anthropic's financial-services Claude plugin format into Codex plugin and skill conventions.",
+    "developerName": "Anthropic FSI / Codex port",
+    "category": "Finance",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/financial-services",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "Use Private Equity workflows for a finance task.",
+      "Run a Private Equity analysis with citations."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  },
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json"
+}

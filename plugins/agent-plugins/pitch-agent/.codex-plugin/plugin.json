@@ -1,0 +1,40 @@
+{
+  "name": "pitch-agent",
+  "version": "0.1.0",
+  "description": "Comps, precedents, LBO to a branded pitch deck, end to end",
+  "author": {
+    "name": "Anthropic FSI",
+    "url": "https://github.com/anthropics/financial-services"
+  },
+  "homepage": "https://github.com/deshengli0523-stack/finacial-service-for-codex",
+  "repository": "https://github.com/deshengli0523-stack/finacial-service-for-codex",
+  "license": "Apache-2.0",
+  "keywords": [
+    "finance",
+    "financial-services",
+    "codex",
+    "skills",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Pitch Agent",
+    "shortDescription": "Comps, precedents, LBO to a branded pitch deck, end to end",
+    "longDescription": "Comps, precedents, LBO to a branded pitch deck, end to end Ported from Anthropic's financial-services Claude plugin format into Codex plugin and skill conventions.",
+    "developerName": "Anthropic FSI / Codex port",
+    "category": "Finance",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/anthropics/financial-services",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "Use Pitch Agent workflows for a finance task.",
+      "Run a Pitch Agent analysis with citations."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "name": "financial-services-for-codex",
+  "interface": {
+    "displayName": "Financial Services For Codex"
+  },
+  "plugins": [
+    {
+      "name": "earnings-reviewer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-plugins/earnings-reviewer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "gl-reconciler",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-plugins/gl-reconciler"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "kyc-screener",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-plugins/kyc-screener"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "market-researcher",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-plugins/market-researcher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "meeting-prep-agent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-plugins/meeting-prep-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "model-builder",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-plugins/model-builder"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "month-end-closer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-plugins/month-end-closer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "pitch-agent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-plugins/pitch-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "statement-auditor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-plugins/statement-auditor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "valuation-reviewer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-plugins/valuation-reviewer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "equity-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vertical-plugins/equity-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "financial-analysis",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vertical-plugins/financial-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "fund-admin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vertical-plugins/fund-admin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "investment-banking",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vertical-plugins/investment-banking"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "operations",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vertical-plugins/operations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "private-equity",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vertical-plugins/private-equity"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "wealth-management",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vertical-plugins/wealth-management"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "lseg",
+      "source": {
+        "source": "local",
+        "path": "./plugins/partner-built/lseg"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
+      "name": "sp-global",
+      "source": {
+        "source": "local",
+        "path": "./plugins/partner-built/spglobal"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    }
+  ]
+}
