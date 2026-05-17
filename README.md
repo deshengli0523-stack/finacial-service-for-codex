@@ -1,5 +1,7 @@
 # Financial Services For Codex
 
+[中文](README.zh-CN.md)
+
 This repository is a Codex-ready port of Anthropic's Apache-2.0
 [`financial-services`](https://github.com/anthropics/financial-services) reference
 agents, plugins, skills, commands, and MCP connector definitions.
